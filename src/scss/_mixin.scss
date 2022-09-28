@@ -1,0 +1,29 @@
+@mixin flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin font($name, $size, $weight) {
+    font-family: $name;
+    font-size: $size;
+    font-weight: $weight;
+}
+
+@mixin tabletLarge {
+    @media screen and (max-width: 900px) {
+        @content;
+    }
+}
+
+@mixin tableMedium {
+    @media screen and (max-width: 700px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 490px) {
+        @content;
+    }
+}
+

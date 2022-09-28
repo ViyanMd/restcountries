@@ -1,0 +1,77 @@
+.container__main {
+    height: 100%;
+    padding: 3rem 2rem;
+}
+
+.input__container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 7px 0 rgba(129, 129, 129, 0.517);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    transition: all 100ms ease-in;
+}
+
+.input__container:focus-within {
+    box-shadow: 0 2px 7px 0 rgba(90, 90, 90, 0.633);
+}
+
+#input__field {
+    @include font($font_interface, 1.2rem, 400);
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(149, 149, 149)
+}
+
+.filters__container {
+    position: relative;
+    width: 18rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 7px 0 rgba(129, 129, 129, 0.517);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.filters__header {
+    @include font($font_interface, 1.2rem, 600);
+    transition: all 150ms ease-in-out;
+    text-align: left;
+}
+
+
+#filters {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 7px 0 rgba(129, 129, 129, 0.517);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    opacity: 0;
+    transform: translateY(-1.5rem);
+    transition: all 200ms ease-in-out;
+
+    &.active {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.filter {
+    @include font($font_interface, 1.2rem, 500);
+    padding: 0.5rem;
+    transition: all 200ms ease-in-out;
+}
+
+.filter:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

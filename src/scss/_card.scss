@@ -1,0 +1,41 @@
+.country__card {
+    @include flex(column);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 7px 0 rgba(129, 129, 129, 0.517);
+    max-width: 20rem;
+    gap: 1rem;
+}
+
+.flag {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    transition: all 200ms ease-in-out;
+    &:hover {
+        transform: scale(1.2);
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        box-shadow: 0 2px 7px 0 rgba(129, 129, 129, 0.517);
+    }
+}
+
+.country__name {
+    @include font($font_card, 1.8rem, 600);
+    color: var(--fg);
+}
+
+.country__card_desc {
+    padding: 1.8rem;
+    color: var(--fg);
+}
+
+.card__desc {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    li {
+        @include font($font_card, 1.4rem, 500);
+        span {
+            font-weight: 600;
+        }
+    }
+}

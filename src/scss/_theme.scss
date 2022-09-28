@@ -1,0 +1,15 @@
+html[data-theme="dark"]{
+    --bg: rgb(24,24,24);
+    --bg-card: rgb(34,34,34);
+    --fg: rgb(226, 226, 226);
+}
+
+html[data-theme="light"]{
+    --bg: rgb(255, 255, 255);
+    --bg-card: rgb(255, 255, 255);
+    --fg: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--bg-card);
+}

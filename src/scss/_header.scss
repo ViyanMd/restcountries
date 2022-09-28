@@ -1,0 +1,15 @@
+.header__main {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--fg);
+}
+
+.logo {
+    @include font($font_logo, 2.8rem, 700);
+    color: var(--fg);
+}
+
+#theme__toggle {
+    @include font($font_interface, 1.2rem, 700);
+    color: var(--fg);
+    cursor: pointer;
+}
