@@ -8,5 +8,6 @@ This is a simple projects, where you can check out different flags and some stat
 - JS
 - SCSS
 
-## gh-pages live url 
+## View live[https://viyanmd.github.io/restcountries/]
+
 
