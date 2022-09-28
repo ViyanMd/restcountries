@@ -8,6 +8,6 @@ This is a simple projects, where you can check out different flags and some stat
 - JS
 - SCSS
 
-## View live[https://viyanmd.github.io/restcountries/]
+## [View live](https://viyanmd.github.io/restcountries/)
 
 
