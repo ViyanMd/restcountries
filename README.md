@@ -10,4 +10,28 @@ This is a simple projects, where you can check out different flags and some stat
 
 ## [View live](https://viyanmd.github.io/restcountries/)
 
+## How to use this project
+
+If you'd like to play around with the project on your own machine, clone the project with 
+
+```
+git clone 'project url'
+```
+
+Run 
+
+```
+npm i 
+```
+
+Once all the packages are installed, run 
+
+```
+npm run
+```
+
+Also, if you'd like to play around with Rest Countries API, here's the [link](https://restcountries.com/)
+
+
+
 
