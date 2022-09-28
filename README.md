@@ -4,6 +4,9 @@ This is a simple projects, where you can check out different flags and some stat
 
 ## Tech used
 
--REST API
--JS
--SCSS
+- REST API
+- JS
+- SCSS
+
+## gh-pages live url 
+
